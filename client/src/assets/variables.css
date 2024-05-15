@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+
+  /* Colors */
+  --primary-dark: #1e1e20;
+  --secondary-dark: #35363c;
+  --secondary-light: #4f515a;
+
+  --copper: #FF6404;
+  --blueprint: #7594ec;
+  --success: #3db03d;
+  --warning: var(--copper);
+  --error: #FF5555;
+
+  --primary-text: #F0F0F0;
+  --secondary-text: #ababab;
+
+  --highlight-dark: #2e2e32;
+  --highlight-light: #404249;
+
+  /* Constants for spacing */
+  --padding-xs: 2px;
+  --padding-s: 5px;
+  --padding-m: 10px;
+  --padding-ms: 15px;
+  --padding-l: 20px;
+  --padding-ls: 25px;
+  --padding-xl: 30px;
+  --padding-xls: 35px;
+  --padding-xxl: 40px;
+
+  --padding--xs: -2px;
+  --padding--s: -5px;
+  --padding--m: -10px;
+  --padding--ms: -15px;
+  --padding--l: -20px;
+  --padding--ls: -25px;
+  --padding--xl: -30px;
+  --padding--xls: -35px;
+  --padding--xxl: -40px;
+  
+  /* Radius */
+  --radius: 4px;
+  --radius-xs: 2px;
+  --radius-s: 5px;
+  --radius-m: 10px;
+  --radius-ms: 15px;
+  --radius-l: 20px;
+
+  /* Other stuff */
+  --header-height: 80px;
+
+  --main-font: 'Roboto Mono', sans-serif;
+}
