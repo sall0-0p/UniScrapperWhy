@@ -1,0 +1,214 @@
+{
+    "meta": {
+        "productName": "Asus GeForce RTX 4070 DUAL OC 12G GDDR6X",
+        "productId": "151335924",
+        "reviewCount": 12,
+        "icon": "../src/assets/images/brass_hand.png",
+        "rating": 1.0
+    },
+    "content": [
+        {
+            "opinionId": "18004563",
+            "author": "r...4",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobra karta - napięci 0.950 trzyma 58 stopni i 2820MHz  na lajcie, pamięci nie kręciłem bo zbyt małe uzyski z podkręcania ale biorąc pod uwagę że asus podaje boost clock 2520 to 2820 wydaję się bardzo dobrym wynikiem.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 1,
+            "publishDate": "2023-10-16 10:13:19",
+            "purchaseDate": "2023-10-04 12:53:40"
+        },
+        {
+            "opinionId": "17987072",
+            "author": "g...r",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Karta ma opcję wyłączania wiatraków poniżej krytycznej temperatury - nie słychać jej podczas pracy nie obciążającej GPU co jest ogromną zaletą. Wydajność jak na ten próg cenowy - jest bardzo dobra.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-10 19:50:54",
+            "purchaseDate": "2023-09-26 11:36:37"
+        },
+        {
+            "opinionId": "17656078",
+            "author": "Łukasz",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "5 gwiazdek dla Asusa. Cena budżetowego modelu a wykonanie 2 klasy wyżej. Karta cicha, cewki nie piszczą, metalowy backplate. Brak wieśniackich ledów i złącze 8Pin.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 2,
+            "unhelpful": 1,
+            "publishDate": "2023-06-28 16:56:03",
+            "purchaseDate": "2023-06-14 16:50:39"
+        },
+        {
+            "opinionId": "17756413",
+            "author": "Zdzisław",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "w pracy firefox+konsola+ide ~15 wat w grze cs:go 120~150 wat\nprzy ~40*C wyntylatory 0% czyli bezgłośna",
+            "pros": [
+                "głośność pracy",
+                "wydajność"
+            ],
+            "cons": null,
+            "helpful": 3,
+            "unhelpful": 0,
+            "publishDate": "2023-07-31 06:20:53",
+            "purchaseDate": null
+        },
+        {
+            "opinionId": "18363197",
+            "author": "m...m",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Za cenę w momencie zakupu należy się 5/5  \nKarta cicha, wydajna, bardzo dobrze wykonana i kosztująca najmniej z konkurencji.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-02 17:32:30",
+            "purchaseDate": "2024-01-22 23:09:20"
+        },
+        {
+            "opinionId": "17762413",
+            "author": "a...r",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "RTX 4070 w bardzo dobrej, solidnie wykonanej wersji, trzymającej świetne temperatury i z dobrą kulturą pracy.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-01 17:14:16",
+            "purchaseDate": "2023-07-09 15:54:23"
+        },
+        {
+            "opinionId": "18500457",
+            "author": "r...1",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Karta rewelacyjna, cicha praca, solidne wykonanie. Sekcja zasilania 8+2 i fabryczne OC. Super.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-03-18 10:51:07",
+            "purchaseDate": "2024-03-13 23:15:38"
+        },
+        {
+            "opinionId": "17783586",
+            "author": "i...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Porządna karta, oprogramowania asusa ułatwia znacznie OC/UV.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 0,
+            "publishDate": "2023-08-08 13:01:41",
+            "purchaseDate": "2023-08-03 11:47:20"
+        },
+        {
+            "opinionId": "18151454",
+            "author": "d...6",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Cyberpunk 2077 na ultra z RT w 120-140 fps. Nie mam uwag.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-29 11:49:22",
+            "purchaseDate": "2023-11-07 15:00:21"
+        },
+        {
+            "opinionId": "18182779",
+            "author": "l...v",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dkbrs cicha karta. Fajnie wygląda. Jak na razie bez problemu.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-07 09:06:42",
+            "purchaseDate": "2023-11-27 20:37:55"
+        },
+        {
+            "opinionId": "17714410",
+            "author": "q...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobra karta graficzna, nie piszczy. Wydajna.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 0,
+            "publishDate": "2023-07-17 17:51:08",
+            "purchaseDate": "2023-07-03 14:38:01"
+        },
+        {
+            "opinionId": "17630163",
+            "author": "Paweł",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Karta działa super, cichutka i elegancka.",
+            "pros": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-06-20 20:13:56",
+            "purchaseDate": "2023-06-06 22:02:22"
+        }
+    ]
+}

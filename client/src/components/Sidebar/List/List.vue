@@ -43,7 +43,6 @@
 </template>
 
 <style scoped>
-
   .list {
     display: flex;
     flex-direction: column;

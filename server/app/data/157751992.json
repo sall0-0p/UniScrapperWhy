@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "productName": "Amd Ryzen 5 7500F TRAY (100000000597)",
+        "productId": "157751992",
+        "reviewCount": 2,
+        "icon": "../src/assets/images/brass_hand.png",
+        "rating": 1.0
+    },
+    "content": [
+        {
+            "opinionId": "18416234",
+            "author": "h...t",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Procesor daje sobie radę w każdym tytule w jaki grałem, bardzo korzystna cena jak na procesor na platformę am5",
+            "pros": [
+                "stabilność",
+                "wydajność"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-20 11:57:32",
+            "purchaseDate": "2024-02-14 10:56:38"
+        },
+        {
+            "opinionId": "18449301",
+            "author": "k...4",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Polecam do 7800xt",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-29 12:22:38",
+            "purchaseDate": "2024-02-10 19:38:23"
+        }
+    ]
+}

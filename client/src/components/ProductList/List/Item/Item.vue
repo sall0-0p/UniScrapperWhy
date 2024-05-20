@@ -1,8 +1,16 @@
 <script>
-  import Icon from '../../Icon/Icon.vue'
-  import ItemButton from '../../Button/Button.vue'
+  import Icon from '../../Icon/Icon.vue';
+  import ItemButton from '../../Button/Button.vue';
+  import ProductRepository from "@/domain/ProductsRepository";
 
   export default {
+    data() {
+      return {
+        repository: new ProductRepository('http://127.0.0.1:5000'),
+        notLoading: true,
+      }
+    },
+
     components: {
       Icon,
       ItemButton,
@@ -27,39 +35,58 @@
       },
     },
 
-    mounted: function() {
-      console.log(this.item);
-      console.log(typeof(this.item));
-    }
+    methods: {
+      deleteProduct() {
+        this.repository.deleteProduct(this.item.productId).then(() => {
+          this.$emit('refresh-list');
+        });
+      },
+
+      refreshProduct() {
+        this.notLoading = false;
+        this.repository.refreshProduct(this.item.productId).then(() => {
+          this.$emit('refresh-list');
+          this.notLoading = true;
+        })
+      }
+    },
   }
 </script>
 
 <template>
-  <div class="item">
-      <div class="sub label__title">
-        <Icon 
-          :img="item.icon || '../assets/images/barrier.png'"
-          size="30px"
-        />
-        <routerLink
-          class="item__title"
-          :to="{
-              name: 'product',
-              params: {
-                productId: item.productId,
-              },
-          }"
-        >
-          {{ item.productName }}
-        </routerLink>
-      </div>
+  <div class="item" v-if="notLoading">
+    <div class="sub label__title">
+      <Icon 
+        :img="item.icon || '../assets/images/barrier.png'"
+        size="30px"
+      />
+      <routerLink
+        class="item__title"
+        :to="{
+            name: 'product',
+            params: {
+              productId: item.productId,
+            },
+        }"
+      >
+        {{ (item.productName).slice(0, 48) }}
+      </routerLink>
+    </div>
+
     <div class="item__label label__id">
       <VTooltip>
-        <p>{{ item.productId }}</p>
+        <a 
+        style="text-decoration: none; color: var(--secondary-text)"
+        :href="`https://ceneo.pl/${ this.item.productId }`"
+        target="_blank"
+        > {{ item.productId }} </a>
       
         <template #popper>
           <p class="tooltip__text">
             Product Id
+          </p>
+          <p class="tooltip__text">
+            (Click to open)
           </p>
         </template>
       </VTooltip>
@@ -85,13 +112,16 @@
           <p class="tooltip__text">
             Product Rating
           </p>
+          <p class="tooltip__text">
+            ({{ (item.rating * 5).toFixed(1) }}/5)
+          </p>
         </template>
       </VTooltip>
     </div>
 
     <div class="sub label__buttons">
       <VTooltip>
-        <ItemButton 
+        <ItemButton @click="refreshProduct"
           img="../src/assets/images/bundle.png" 
           size="25px" 
           icon_size="25px" 
@@ -100,12 +130,13 @@
 
         <template #popper>
           <p class="tooltip__text">
-            Redownload
+            Update
           </p>
         </template>
       </VTooltip>
+
       <VTooltip>
-        <ItemButton 
+        <ItemButton @click="deleteProduct"
           img="../src/assets/images/bucket_lava.png" 
           size="25px" 
           icon_size="25px" 
@@ -118,6 +149,12 @@
           </p>
         </template>
       </VTooltip>
+    </div>
+  </div>
+
+  <div class="item" v-else>
+    <div class="item__label label__wait">
+      <p>Loading...</p>
     </div>
   </div>
 </template>
@@ -134,6 +171,8 @@
     // gap: 10px;
 
     transition: 0.2s;
+
+    box-sizing: border-box;
 
     &__title {
       color: var(--primary-text);
@@ -215,6 +254,15 @@
     &__buttons {
       width: 20%;
       justify-content: flex-end;
+    }
+
+    &__wait {
+      height: 25px;
+      padding: 5px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 

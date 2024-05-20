@@ -1,38 +1,101 @@
 <script>
-  import Icon from '../Icon/Icon.vue'
-  import HeaderButton from '../Button/Button.vue'
+  import Icon from '../Icon/Icon.vue';
+  import HeaderButton from '../Button/Button.vue';
+  import ProductRepository from "@/domain/ProductsRepository";
 
   export default {
     components: {
       Icon,
       HeaderButton,
     },
+
+    data() {
+      return {
+        repository: new ProductRepository('http://127.0.0.1:5000'),
+        downloading: false,
+      };
+    },
+    
+    props: {
+      itemsCount: {
+        type: Number,
+        default: 0,
+      },
+    },
+
+    computed: {
+      searchTitle() {
+        if (this.downloading) {
+          return 'Downloading...'
+        } else {
+          return 'Search or insert ID'
+        }
+      }
+    },
+
+    methods: {
+      refresh() {
+        this.$emit('refresh-list')
+      },
+
+      clearAll() {
+        this.repository.clearProductList().then(() => {
+          this.$emit('refresh-list')
+        })
+      },
+
+      createNew() {
+        const toSearch = this.search
+        this.downloading = true
+        this.search = ''
+        this.$emit('update-search', this.search)
+        this.repository.getNewProduct(toSearch).then(() => {
+          this.$emit('refresh-list')
+          this.downloading = false
+        })
+      },
+
+      formChanged() {
+        this.$emit('update-search', this.search)
+      }
+    },
   }
 </script>
 
 <template>
   <div class="header">
-    <h3 class="header__title">Production Queue</h3>
+    <h3 class="header__title">Products ({{ this.itemsCount }})</h3>
     <div class="search">
       <Icon size="20px" img="../src/assets/images/spyglass.png"/>
-      <input class="search__input" placeholder="Search">
+      <input class="search__input" :placeholder="searchTitle" v-model="search" @input="formChanged" id="search">
     </div>
     <div class="header__buttons">
-      <HeaderButton 
+      <HeaderButton @click="createNew"
         img="../src/assets/images/clipboard_and_quill.png"
         label="NEW"
       />
+
+      <VTooltip>
+        <HeaderButton
+          img="../src/assets/images/compass_item.png"
+          @click="refresh"
+        />
+
+        <template #popper>
+          <p class="tooltip__text">Refresh</p>
+        </template>
+      </VTooltip>
+
       <VTooltip>
         <HeaderButton 
-        img="../src/assets/images/bucket_lava.png"
+          img="../src/assets/images/bucket_lava.png"
+          @click="clearAll"
         />
 
         <template #popper>
           <p class="tooltip__text">Clear All</p>
         </template>
       </VTooltip>
-      
-      
     </div>
   </div>
 </template>
@@ -65,7 +128,7 @@
     height: 20px;
     padding: 5px;
     width: 60%;
-    margin-right: 10px;
+    margin-right: 5px;
 
     display: flex;
     gap: 5px;

@@ -1,5 +1,5 @@
 <script>
-import ListItem from "./Item/Item.vue"
+  import ListItem from "./Item/Item.vue";
 
   export default {
     components: {
@@ -8,42 +8,36 @@ import ListItem from "./Item/Item.vue"
 
     data() {
       return {
-        items: [
-          {
-            productName: 'Some Product',
-            productId: '26538772',
-            icon: '../src/assets/images/brass_hand.png',
-            reviewCount: 20,
-            rating: 0.8,
-          },
-          {
-            productName: 'Another Product',
-            productId: '15858488',
-            icon: '../src/assets/images/brass_hand.png',
-            reviewCount: 1546,
-            rating: 0.6,
-          },
-          {
-            productName: 'And Just Another Product BLA',
-            productId: '35095301',
-            icon: '../src/assets/images/brass_hand.png',
-            reviewCount: 20,
-            rating: 1,
-          },
-        ],
+        items: [],
       }
     },
+
+    props: {
+      items: {
+        type: Array,
+        default: [],
+      },
+    },
+
+    methods: {
+      fetchAll() {
+        this.$emit('refresh-list')
+      },
+    }
   }
 </script>
 
 <template>
   <div class="list">
-    <ListItem 
-      v-for="(item, index) in items"
-      :key = item.productId
-      :item = item
-      :index = index
-    />
+    <TransitionGroup name="list" tag="div">
+      <ListItem 
+        v-for="item in items"
+        :key = item.productId
+        :item = item
+        :index = index
+        @refresh-list="fetchAll"
+      />
+    </TransitionGroup>
   </div>
 </template>
 
@@ -54,4 +48,15 @@ import ListItem from "./Item/Item.vue"
     border-radius: 5px;
     margin-top: 5px;
   }
+
+  .list-enter-active,
+  .list-leave-active {
+    transition: all 0.5s ease;
+  }
+  .list-enter-from,
+  .list-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
 </style>

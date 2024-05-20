@@ -54,12 +54,13 @@
     align-items: center;
 
     border-left: 0px solid;
+    box-sizing: border-box;
 
-    transition: 0.25s;
-
+    transition: 0.2s;
     &:hover {
       border-left: 7px var(--copper) solid;
-      background-color: var(--highlight-dark);
+      background-color: var(--highlight-darker);
+      
     }
   }
 

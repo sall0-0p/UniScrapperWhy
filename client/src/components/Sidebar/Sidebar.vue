@@ -48,6 +48,10 @@
         @select-item="selectItem"
       />
     </div>
+
+    <div class="sidebar-wrapper nav-footer">
+      <p class="nav-text">Antoniuk Orest | 232939</p>
+    </div>
   </div>
 </template>
 
@@ -71,5 +75,12 @@
 
   .nav-footer {
     background-color: #2e2e33;
+  }
+
+  .nav-text {
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--secondary-light);
+    padding: 5px;
   }
 </style>

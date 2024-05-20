@@ -1,0 +1,631 @@
+{
+    "meta": {
+        "productName": "Samsung Galaxy TAB S9 11\" 8/128GB WiFi Szary (SM-X710NZAAEUE)",
+        "productId": "155224282",
+        "reviewCount": 40,
+        "icon": "../src/assets/images/brass_hand.png",
+        "rating": 0.9550000000000001
+    },
+    "content": [
+        {
+            "opinionId": "18060978",
+            "author": "g...s",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Po pobraniu kilku aplikacji, dokupieniu myszki i etui z klawiturą zastępuje mi  na wyjazdach komputer. Baterii starcza na dwa dni, chyba że całkowicie wyłączy się zasilanie. Wad nie widzę i aby tak zostało.",
+            "pros": [
+                "funkcjonalność"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-02 18:36:10",
+            "purchaseDate": "2023-10-10 12:30:38"
+        },
+        {
+            "opinionId": "18216295",
+            "author": "g...k",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Działa bardzo płynnie, ekran wspaniały, rysik bardzo precyzyjny.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": [
+                "waga"
+            ],
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-15 20:37:28",
+            "purchaseDate": "2023-12-07 21:16:10"
+        },
+        {
+            "opinionId": "17911763",
+            "author": "Marcin",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Tablet zgdny z moimi oczekiwaniami.",
+            "pros": [
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-09-18 10:45:38",
+            "purchaseDate": "2023-09-15 15:30:42"
+        },
+        {
+            "opinionId": "18083044",
+            "author": "a...z",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bardzo dobrze działający tablet.",
+            "pros": [
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-09 16:22:24",
+            "purchaseDate": "2023-11-03 15:19:26"
+        },
+        {
+            "opinionId": "18580132",
+            "author": "bartex1996321",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super sprzęt",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-17 09:00:54",
+            "purchaseDate": "2024-04-14 12:08:53"
+        },
+        {
+            "opinionId": "18004610",
+            "author": "w...0",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Jest ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-16 10:19:13",
+            "purchaseDate": "2023-10-06 13:00:39"
+        },
+        {
+            "opinionId": "18232294",
+            "author": "j...z",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-21 08:50:14",
+            "purchaseDate": "2023-12-17 20:05:35"
+        },
+        {
+            "opinionId": "17999717",
+            "author": "j...1",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-13 14:31:22",
+            "purchaseDate": "2023-10-02 09:50:34"
+        },
+        {
+            "opinionId": "18585510",
+            "author": "c...e",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Najlepszy tablet na świecie!!! Żona przezadowolona :) Lekki, cienki, mocny, szybki, niezawodny, pyłoszczelny, wodoodporny, dłupkoodporny ;) Płynnie odtwarza filmy HEVC w 4K, a obraz jak żyleta :D",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-18 13:11:00",
+            "purchaseDate": "2024-03-13 18:57:14"
+        },
+        {
+            "opinionId": "18261407",
+            "author": "s...4",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Świetna jakość, szybkość, ekran, bateria i obudowa cienka jak wafelek ;-). Dla mnie jest jednak zbyt duży, choć wygodny w użytkowaniu to nieporęczny i przez to niezbyt mobilny.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-01 13:01:47",
+            "purchaseDate": "2023-12-11 09:11:29"
+        },
+        {
+            "opinionId": "18611137",
+            "author": "Witek 87",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "\"Przesiadłem\" się z Galaxy S6 10'' na Galaxy S9+ 12,4'' nareszcie mam to co chciałem. To naprawdę porządny sprzęt, jeżeli lubicie tablety, to jest sprzęt dla Was",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-29 08:24:45",
+            "purchaseDate": "2024-04-22 09:35:24"
+        },
+        {
+            "opinionId": "18218779",
+            "author": "k...t",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "B.dobry wyswietlacz,responsywny,pamie wewnetrzna i mozliwosc rozszerzenia spelnia oczekiwania,glosniki b.dobre.\nProdukt premium",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-18 07:52:06",
+            "purchaseDate": "2023-12-12 09:35:20"
+        },
+        {
+            "opinionId": "18057555",
+            "author": "m...3",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Najlepszy tablet jaki miałem. Działa niesamowicie szybko. Bateria pozwala na korzystanie z urządzenia przez długie godziny.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-02 07:21:45",
+            "purchaseDate": "2023-10-31 10:30:32"
+        },
+        {
+            "opinionId": "18191123",
+            "author": "w...1",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Tablet jest jak najbardziej ok bateria trzyma 1 dzień  przy intensywnym użytkowaniu  samsung  dex też jak najbardziej ok",
+            "pros": [
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": [
+                "czas pracy na baterii"
+            ],
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-08 19:42:40",
+            "purchaseDate": "2023-11-02 10:32:06"
+        },
+        {
+            "opinionId": "18136960",
+            "author": "p...c",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Świetny produkt. Dobrze, że Samsung powrócił do wyświetlaczy OLED",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-24 19:52:27",
+            "purchaseDate": "2023-10-25 14:10:24"
+        },
+        {
+            "opinionId": "17989223",
+            "author": "a...m",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Wspaniały, jakość ekranu bajka, szybko śmiga, czas pracy na baterii - średni.",
+            "pros": [
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-11 09:38:52",
+            "purchaseDate": "2023-10-02 10:40:08"
+        },
+        {
+            "opinionId": "18595649",
+            "author": "j...y",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bałem się wielkości, jednak teraz wiem że to mega rozwiązanie",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-23 08:18:26",
+            "purchaseDate": "2024-04-17 10:54:56"
+        },
+        {
+            "opinionId": "17863095",
+            "author": "m...7",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Produkt spełnia moje oczekiwania. Przetestowałem jestem zadowolony.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 2,
+            "publishDate": "2023-09-02 01:22:20",
+            "purchaseDate": "2023-08-23 13:49:33"
+        },
+        {
+            "opinionId": "18312824",
+            "author": "p...5",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Świetny tablet pod każdy względem, Polecam!",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-17 17:51:20",
+            "purchaseDate": "2024-01-02 22:01:22"
+        },
+        {
+            "opinionId": "18108448",
+            "author": "p...m",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "dobry sprzęt do notatek i pracy zdalnej",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-17 08:47:56",
+            "purchaseDate": "2023-11-13 23:25:42"
+        },
+        {
+            "opinionId": "18393846",
+            "author": "s...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bardzo fajny sprzęt. Dla mnie bomba!!!",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-13 11:17:33",
+            "purchaseDate": "2024-02-07 15:57:26"
+        },
+        {
+            "opinionId": "18614756",
+            "author": "b...o",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "W pełni spełnia zakładane wymagania.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-30 09:50:05",
+            "purchaseDate": "2024-04-24 11:08:25"
+        },
+        {
+            "opinionId": "18150888",
+            "author": "p...v",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Szybki, wydainy, wodoodporny.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-29 10:40:42",
+            "purchaseDate": "2023-11-16 22:10:40"
+        },
+        {
+            "opinionId": "17925235",
+            "author": "j...3",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Jak do tej pory bez zarzutu.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-09-21 15:38:29",
+            "purchaseDate": "2023-09-16 16:52:38"
+        },
+        {
+            "opinionId": "18403684",
+            "author": "g...x",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Produkt najwyższej jakości.",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-15 21:25:41",
+            "purchaseDate": "2024-02-10 13:12:37"
+        },
+        {
+            "opinionId": "18327450",
+            "author": "m...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bardzo dobry produkt.",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-23 08:13:03",
+            "purchaseDate": "2024-01-10 15:07:27"
+        },
+        {
+            "opinionId": "17925231",
+            "author": "j...3",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Ja do tej pory super",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-09-21 15:36:34",
+            "purchaseDate": "2023-09-16 16:52:38"
+        },
+        {
+            "opinionId": "18333142",
+            "author": "Arkadiusz",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Najlepszy na rynku.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-24 11:22:13",
+            "purchaseDate": "2024-01-04 13:37:35"
+        },
+        {
+            "opinionId": "18164097",
+            "author": "p...n",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Cena mówi wszystko",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-01 21:22:15",
+            "purchaseDate": "2023-11-24 12:48:58"
+        },
+        {
+            "opinionId": "18091306",
+            "author": "r...8",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bardzo Polecam",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-13 08:15:38",
+            "purchaseDate": "2023-10-24 11:30:47"
+        },
+        {
+            "opinionId": "18433222",
+            "author": "Użytkownik Ceneo",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super tablet.",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu",
+                "waga"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-02-24 15:56:08",
+            "purchaseDate": "2024-01-23 20:53:41"
+        },
+        {
+            "opinionId": "18207533",
+            "author": "k...z",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "zgodnie z oczekiwaniem",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-12-14 08:16:28",
+            "purchaseDate": "2023-12-10 19:33:59"
+        },
+        {
+            "opinionId": "18247996",
+            "author": "p...i",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Bardzo dobry",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-27 14:07:26",
+            "purchaseDate": "2023-12-12 12:02:40"
+        },
+        {
+            "opinionId": "18478114",
+            "author": "j...0",
+            "recommendation": null,
+            "score": 0.7,
+            "content": "Polecam",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-03-11 09:37:42",
+            "purchaseDate": "2024-02-20 11:29:44"
+        },
+        {
+            "opinionId": "18569193",
+            "author": "artur.bieda77*****",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-12 09:43:50",
+            "purchaseDate": "2024-04-03 17:50:30"
+        },
+        {
+            "opinionId": "18296493",
+            "author": "i...o",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Extra",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-12 08:38:38",
+            "purchaseDate": "2023-12-18 20:46:04"
+        },
+        {
+            "opinionId": "18107836",
+            "author": "r...8",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-17 07:53:11",
+            "purchaseDate": "2023-10-27 12:51:59"
+        },
+        {
+            "opinionId": "18104129",
+            "author": "z...e",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-16 09:10:09",
+            "purchaseDate": "2023-10-25 14:51:31"
+        },
+        {
+            "opinionId": "17792322",
+            "author": "r...w",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Najpierw muszę otrzymać tablet żeby go ocenić",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 8,
+            "publishDate": "2023-08-10 14:15:23",
+            "purchaseDate": "2023-07-30 18:58:55"
+        },
+        {
+            "opinionId": "17957057",
+            "author": "i...k",
+            "recommendation": false,
+            "score": 0.2,
+            "content": "Niestety nie jestem zadowolony bo czuję się oszukany przez firmę Samsung.",
+            "pros": null,
+            "cons": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "jakość ekranu"
+            ],
+            "helpful": 0,
+            "unhelpful": 11,
+            "publishDate": "2023-10-02 07:45:48",
+            "purchaseDate": "2023-09-02 07:17:12"
+        }
+    ]
+}

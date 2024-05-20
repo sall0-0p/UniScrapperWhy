@@ -1,10 +1,10 @@
 {
     "meta": {
-        "name": "Redmi Note 13 Pro 5G 8/256GB Czarny",
-        "product_id": "161117779",
-        "opinion_count": 83,
-        "image": "https://image.ceneostatic.pl/data/products/161117779/f-redmi-note-13-pro-5g-8-256gb-czarny.jpg",
-        "average_score": 0.9698795180722891
+        "productName": "Redmi Note 13 Pro 5G 8/256GB Czarny",
+        "productId": "161117779",
+        "reviewCount": 88,
+        "icon": "../src/assets/images/brass_hand.png",
+        "rating": 0.9704545454545456
     },
     "content": [
         {
@@ -91,6 +91,24 @@
             "unhelpful": 0,
             "publishDate": "2024-02-27 08:55:01",
             "purchaseDate": "2024-02-03 12:44:08"
+        },
+        {
+            "opinionId": "18656093",
+            "author": "s...6",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Jak do tej pory nie mam uwag. Zaletą duża bateria i aparat. Może trochę duży dla kobiet ale można się przyzwyczaić. Ogólnie mocne pięć 👍",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "łatwość obsługi",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-05-17 10:00:55",
+            "purchaseDate": "2024-04-12 11:30:45"
         },
         {
             "opinionId": "18394243",
@@ -491,6 +509,19 @@
             "purchaseDate": "2024-02-23 11:35:39"
         },
         {
+            "opinionId": "18648958",
+            "author": "m...9",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobry",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-05-15 08:45:02",
+            "purchaseDate": "2024-04-30 01:55:16"
+        },
+        {
             "opinionId": "18556834",
             "author": "r...6",
             "recommendation": true,
@@ -807,6 +838,25 @@
             "purchaseDate": "2024-02-24 19:19:19"
         },
         {
+            "opinionId": "18658493",
+            "author": "piotrcharmast",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Produkt oferuje dokładnie to czego się spodziewałem w tej cenie.",
+            "pros": [
+                "czas pracy na baterii",
+                "ergonomiczny",
+                "funkcjonalność",
+                "łatwość obsługi",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-05-19 13:27:43",
+            "purchaseDate": "2024-05-05 18:00:31"
+        },
+        {
             "opinionId": "18446008",
             "author": "t...a",
             "recommendation": true,
@@ -872,6 +922,25 @@
             "unhelpful": 0,
             "publishDate": "2024-02-19 19:49:56",
             "purchaseDate": "2024-01-31 15:30:22"
+        },
+        {
+            "opinionId": "18653506",
+            "author": "a...1",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Телефончик хороший!!! Ціна+ якість адекватна!!!",
+            "pros": [
+                "czas pracy na baterii",
+                "ergonomiczny",
+                "funkcjonalność",
+                "łatwość obsługi",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-05-16 12:42:33",
+            "purchaseDate": "2024-05-05 15:15:32"
         },
         {
             "opinionId": "18630838",
@@ -1302,6 +1371,24 @@
             "unhelpful": 0,
             "publishDate": "2024-03-29 06:36:06",
             "purchaseDate": "2024-03-17 12:15:39"
+        },
+        {
+            "opinionId": "18651990",
+            "author": "joasiadudek1*****",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Ok",
+            "pros": [
+                "czas pracy na baterii",
+                "funkcjonalność",
+                "łatwość obsługi",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-05-16 08:25:50",
+            "purchaseDate": "2024-05-03 10:00:49"
         },
         {
             "opinionId": "18544955",

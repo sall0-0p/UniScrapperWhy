@@ -1,0 +1,85 @@
+{
+    "meta": {
+        "productName": "Konsola Sony PlayStation Portal PS5",
+        "productId": "159605488",
+        "reviewCount": 5,
+        "icon": "../src/assets/images/brass_hand.png",
+        "rating": 0.66
+    },
+    "content": [
+        {
+            "opinionId": "18182806",
+            "author": "d...4",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Gorąco polecam na wszystkich niezdecydowanych. Produktów naprawdę świetny. Duży jasny ekran, głośny dźwięk. Wygodnie się trzyma nawet przy kilku godzinach grania. Nie ma problemu z połączeniem przy dobrym internecie (ja mam światłowód 1gb/). \n\nBrakuje mi jedynie z tyłu dodatkowych łopatek, jak ma to miejsce w Edge.",
+            "pros": [
+                "grywalność",
+                "jakość",
+                "możliwości"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-12-07 09:09:01",
+            "purchaseDate": "2023-12-06 12:30:44"
+        },
+        {
+            "opinionId": "18237723",
+            "author": "s...5",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Świetne wykonanie - bardzo dobry sprzęt",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-12-22 11:26:18",
+            "purchaseDate": "2023-12-07 17:00:46"
+        },
+        {
+            "opinionId": "18547576",
+            "author": "e...2",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-04 07:48:45",
+            "purchaseDate": "2024-03-27 11:50:17"
+        },
+        {
+            "opinionId": "18166673",
+            "author": "jacek",
+            "recommendation": false,
+            "score": 0.1,
+            "content": "Produkt ładny ale niefuncjonalny.\nŁaczenie z konsolą trwa za dlugo, ok minute. Najgorsze że fun z grania zabija ciągłe rwanie i klatkowanie. Sprawdzalem 3 tytuly nowe, Spiderman ,COD3 i ten sam problem, odechciewa sie grac i wkurzac.\nNie wiem po co to zostalo stworzone. Mam swiatlowód 1Gb i co chwile woła wolny net, gdzie 43 inne urzadzenia smigaja. Żenujące że Sony wypuszcza taki bubel, wstyd. Nie polecam.",
+            "pros": [
+                "jakość"
+            ],
+            "cons": [
+                "grywalność",
+                "możliwości"
+            ],
+            "helpful": 3,
+            "unhelpful": 13,
+            "publishDate": "2023-12-03 20:41:17",
+            "purchaseDate": null
+        },
+        {
+            "opinionId": "18565404",
+            "author": "a...9",
+            "recommendation": false,
+            "score": 0.2,
+            "content": "Nie polecam bardzo się zawiodłem",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-11 08:27:33",
+            "purchaseDate": "2024-03-24 13:52:40"
+        }
+    ]
+}

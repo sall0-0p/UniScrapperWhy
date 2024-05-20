@@ -16,11 +16,11 @@
             redirect: '/',
             icon: '../src/assets/images/clipboard.png',
           },
-          {
-            name: 'Extract',
-            redirect: '/list',
-            icon: '../src/assets/images/banner_pattern.png',
-          },
+          // {
+          //   name: 'Extract',
+          //   redirect: '/list',
+          //   icon: '../src/assets/images/banner_pattern.png',
+          // },
         ],
 
         footerItems: [
@@ -77,6 +77,8 @@
   }
 
   .tooltip__text {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 1px;
   }
 </style>

@@ -29,10 +29,9 @@
   }
 
   .icon {
-    background: center / contain url("@/assets/images/ceneo.png") no-repeat;
-    width: 200px;
-    height: 100px;
-    outline: none;
-    border: 0px solid;
+    background: center / contain url("@/assets/images/cookie.png") no-repeat;
+    height: calc(var(--header-height) - 10px);
+    width: calc(var(--header-height) - 10px);
+    margin: 15px 25px 15px;
   }
 </style>
