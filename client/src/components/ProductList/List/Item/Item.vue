@@ -60,6 +60,7 @@
         :img="item.icon || '../assets/images/barrier.png'"
         size="30px"
       />
+      
       <routerLink
         class="item__title"
         :to="{
@@ -113,7 +114,7 @@
             Product Rating
           </p>
           <p class="tooltip__text">
-            ({{ (item.rating * 5).toFixed(1) }}/5)
+            ({{ (item.rating * 5).toFixed(1) }}/5.0)
           </p>
         </template>
       </VTooltip>

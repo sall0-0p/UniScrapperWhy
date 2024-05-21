@@ -84,7 +84,7 @@ def getReviews(productId, update):
 
         data = {
             "meta": {
-                "productName": extract(page_dom, ".product-top__product-info__name"),
+                "productName": extract(page_dom, ".js_searchInGoogleTooltip"),
                 "productId": productId,
                 "reviewCount": processed_opinions,
                 'icon': '../src/assets/images/brass_hand.png',
@@ -99,6 +99,3 @@ def getReviews(productId, update):
         json_file.close()
         
         return json.dumps(data, indent=4, ensure_ascii=False)
-
-print(getReviews('151755777', False))
-print(getReviews('150314826', False))

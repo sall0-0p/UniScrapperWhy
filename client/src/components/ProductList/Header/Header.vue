@@ -13,6 +13,8 @@
       return {
         repository: new ProductRepository('http://127.0.0.1:5000'),
         downloading: false,
+        sortingMethod: "By Alphabet", // "By Review Count"
+        sortingIcon: "../src/assets/images/attribute_filter.png",
       };
     },
     
@@ -26,38 +28,50 @@
     computed: {
       searchTitle() {
         if (this.downloading) {
-          return 'Downloading...'
+          return 'Downloading...';
         } else {
-          return 'Search or insert ID'
+          return 'Search or insert ID';
         }
-      }
+      },
     },
 
     methods: {
       refresh() {
-        this.$emit('refresh-list')
+        this.$emit('refresh-list');
       },
 
       clearAll() {
         this.repository.clearProductList().then(() => {
-          this.$emit('refresh-list')
+          this.$emit('refresh-list');
         })
       },
 
       createNew() {
-        const toSearch = this.search
-        this.downloading = true
-        this.search = ''
-        this.$emit('update-search', this.search)
+        const toSearch = this.search;
+        this.downloading = true;
+        this.search = '';
+        this.$emit('update-search', this.search);
         this.repository.getNewProduct(toSearch).then(() => {
-          this.$emit('refresh-list')
-          this.downloading = false
+          this.$emit('refresh-list');
+          this.downloading = false;
         })
       },
 
       formChanged() {
-        this.$emit('update-search', this.search)
-      }
+        this.$emit('update-search', this.search);
+      },
+
+      changeSortingMethod() {
+        if (this.sortingMethod === "By Alphabet") {
+          this.sortingIcon = "../src/assets/images/filter.png";
+          this.sortingMethod = "By Review Count";
+          this.$emit("change-sorting", "By Review Count")
+        } else {
+          this.sortingIcon = "../src/assets/images/attribute_filter.png";
+          this.sortingMethod = "By Alphabet";
+          this.$emit("change-sorting", "By Alphabet");
+        }
+      },
     },
   }
 </script>
@@ -65,10 +79,29 @@
 <template>
   <div class="header">
     <h3 class="header__title">Products ({{ this.itemsCount }})</h3>
+
+    <!-- <VTooltip style="margin-right: 5px;">
+      <HeaderButton
+        img="../src/assets/images/compass_item.png"
+        @click="refresh"
+      />
+
+      <template #popper>
+        <p class="tooltip__text">Refresh</p>
+      </template>
+    </VTooltip> -->
+
     <div class="search">
       <Icon size="20px" img="../src/assets/images/spyglass.png"/>
-      <input class="search__input" :placeholder="searchTitle" v-model="search" @input="formChanged" id="search">
+      <input class="search__input" 
+        :placeholder="searchTitle" 
+        v-model="search" 
+        @input="formChanged" 
+        @submit="createNew"
+        id="search"
+      >
     </div>
+
     <div class="header__buttons">
       <HeaderButton @click="createNew"
         img="../src/assets/images/clipboard_and_quill.png"
@@ -77,12 +110,12 @@
 
       <VTooltip>
         <HeaderButton
-          img="../src/assets/images/compass_item.png"
-          @click="refresh"
+          :img="this.sortingIcon"
+          @click="changeSortingMethod"
         />
 
         <template #popper>
-          <p class="tooltip__text">Refresh</p>
+          <p class="tooltip__text">Sorting {{ this.sortingMethod }}</p>
         </template>
       </VTooltip>
 

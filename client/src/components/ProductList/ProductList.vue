@@ -12,7 +12,8 @@
     data() {
       return {
         repository: new ProductRepository('http://127.0.0.1:5000'), // TODO: replace with .env constraint
-        search_value: '',
+        searchValue: '',
+        sortingMethod: 'By Alphabet',
 
         items: [
 
@@ -30,34 +31,57 @@
 
     methods: {
       updateSearch(value) {
-        console.log(value)
-        this.search_value = value
-        this.arrangeItems()
+        this.searchValue = value;
+        this.arrangeItems();
+      },
+
+      changeSorting(value) {
+        this.sortingMethod = value;
+        this.arrangeItems();
       },
       
       arrangeItems() {
-
         let rawItems = this.rawItems.filter((item) => {
-          if (this.search_value.length < 3) {
-            return true
+          if (this.searchValue.length < 3) {
+            return true;
           }
 
-          if ((item.productName.toUpperCase()).includes(this.search_value.toUpperCase()) || (item.productId) === this.search_value) {
-            return true
+          if ((item.productName.toUpperCase()).includes(this.searchValue.toUpperCase()) || (item.productId) === this.searchValue) {
+            return true;
           } else {
-            return false
+            return false;
           }
-        })
+        });
 
-        this.items = rawItems.sort((a, b) => {
-          if (a.reviewCount > b.reviewCount) {
-            return -1;
-          }
-          if (a.reviewCount < b.reviewCount) {
-            return 1;
-          }
-          return 0;
-        })
+        if (this.sortingMethod === 'By Alphabet') {
+          this.items = rawItems.sort((a, b) => {
+            if (a.productName < b.productName) {
+              return -1;
+            }
+            if (a.productName > b.productName) {
+              return 1;
+            }
+            return 0;
+          });
+        } else {
+          this.items = rawItems.sort((a, b) => {
+            if (a.reviewCount > b.reviewCount) {
+              return -1;
+            }
+            if (a.reviewCount < b.reviewCount) {
+              return 1;
+            }
+            
+            // if same amount of reviews:
+            if (a.productName < b.productName) {
+              return -1;
+            }
+            if (a.productName > b.productName) {
+              return 1;
+            }
+            return 0;
+          });
+        }
       },
 
       async fetchAll() {
@@ -76,6 +100,7 @@
     <BlockHeader 
     @refresh-list="fetchAll" 
     @update-search="updateSearch"
+    @change-sorting="changeSorting"
     :itemsCount="items.length"
     />
     <List 

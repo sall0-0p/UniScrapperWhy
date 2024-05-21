@@ -48,12 +48,14 @@
 
 <template>
   <div class="app-main-container">
-    <Sidebar
-      :items="items"
-      :footer-items="footerItems"
-      :selected="selected"
-      @select-item="selectItem"
-    />
+    <div class="app-main-container__sidebar">
+      <Sidebar
+        :items="items"
+        :footer-items="footerItems"
+        :selected="selected"
+        @select-item="selectItem"
+      />
+    </div>
     <RouterView  
       :selected="selected"
       class="app-main-container__right"
@@ -70,9 +72,14 @@
   .app-main-container {
     display: flex;
     background-color: var(--primary-dark);
-
+    
     &__right {
+      margin-left: 270px;
       flex-grow: 1;
+    }
+
+    &__sidebar {
+      position: fixed;
     }
   }
 
