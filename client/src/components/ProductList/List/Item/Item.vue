@@ -21,16 +21,11 @@
         type: Object,
         default: () => ({}),
       },
-
-      index: {
-        type: String,
-        default: '00000000',
-      }
     },
 
     computed: {
       formatRating() {
-        let numberOfStars = Math.round(this.item.rating / 0.2);
+        let numberOfStars = Math.round(this.item.rating / .2);
         return "★".repeat(numberOfStars) + "☆".repeat(5 - numberOfStars);
       },
     },
@@ -57,7 +52,7 @@
   <div class="item" v-if="notLoading">
     <div class="sub label__title">
       <Icon 
-        :img="item.icon || '../assets/images/barrier.png'"
+        :img="'../src/assets/images/brass_hand.png'"
         size="30px"
       />
       

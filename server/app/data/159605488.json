@@ -2,8 +2,10 @@
     "meta": {
         "productName": "Sony PlayStation Portal PS5",
         "productId": "159605488",
+        "tags": "Konsola do gier Sony PlayStation Portal Nie dotyczy z napędem optycznym Brak. Konsola zawiera złącza: USB. Rodzaj konsoli: Przenośne. Wersja: Podstawowa. Produkt zawiera: Kabel USB",
         "reviewCount": 5,
-        "icon": "../src/assets/images/brass_hand.png",
+        "price": "1 048",
+        "icon": "https://image.ceneostatic.pl/data/products/159605488/f-sony-playstation-portal-ps5.jpg",
         "rating": 0.66
     },
     "content": [

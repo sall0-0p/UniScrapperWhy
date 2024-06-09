@@ -26,8 +26,8 @@
     <TransitionGroup name="list" tag="div">
       <ListItem 
         v-for="item in items"
-        :key = item.productId
-        :item = item
+        :key = item.opinionId
+        :review = item
         @refresh-list="fetchAll"
       />
     </TransitionGroup>

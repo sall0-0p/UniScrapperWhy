@@ -3,7 +3,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import FloatingVue from 'floating-vue'
-import { VueFinalModal } from 'vue-final-modal'
 import cors from 'cors'
 
 import router from './router'
@@ -17,7 +16,6 @@ const corsOptions = {
 
 app.use(FloatingVue)
 app.use(router)
-app.use(VueFinalModal)
 app.mount('#app')
 
 cors(corsOptions)

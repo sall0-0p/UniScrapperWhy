@@ -98,10 +98,10 @@
   <!-- <p>Hello World!</p> -->
   <div class="content__block">
     <BlockHeader 
-    @refresh-list="fetchAll" 
-    @update-search="updateSearch"
-    @change-sorting="changeSorting"
-    :itemsCount="items.length"
+      @refresh-list="fetchAll" 
+      @update-search="updateSearch"
+      @change-sorting="changeSorting"
+      :itemsCount="items.length"
     />
     <List 
       @refresh-list="fetchAll"
@@ -113,7 +113,7 @@
 <style scoped lang="scss">
   .content__block {
     background-color: var(--secondary-dark);
-    margin: 15px;
+    margin: 10px;
     padding: 5px;
     border-radius: 10px;
     width: calc(100% - 30px);

@@ -66,7 +66,6 @@ class Product(Resource):
             data_json = json.loads(data)
             return json.dumps(data_json['meta'], indent=4, ensure_ascii=False)
         else:
-            print(args)
             return data
         
     def post(self, productId):

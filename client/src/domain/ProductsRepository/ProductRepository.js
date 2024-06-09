@@ -9,6 +9,10 @@ export default class ProductRepository extends BaseRepository {
     };
   };
 
+  getProductData(productId) {
+    return fetch(`${this.baseUrl}/product/${productId}`, { method: 'get' });
+  }
+
   getNewProduct(productId) {
     return fetch(`${this.baseUrl}/product/${productId}`, { method: 'get' });
   }

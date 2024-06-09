@@ -86,9 +86,11 @@ def getReviews(productId, update):
             "meta": {
                 "productName": extract(page_dom, ".js_searchInGoogleTooltip"),
                 "productId": productId,
+                "tags": extract(page_dom, ".product-top__product-info__tags"),
                 "reviewCount": processed_opinions,
-                'icon': '../src/assets/images/brass_hand.png',
-                # "icon": "https:" + extract(page_dom, ".js_gallery-media", "src"),
+                "price": extract(page_dom, ".product-offer-summary__price-box > .price-format > .price > .value"),
+                # 'icon': '../src/assets/images/brass_hand.png',
+                "icon": "https:" + extract(page_dom, ".js_gallery-media", "src"),
                 "rating": analytics_result[3],
             },
             "content": product,

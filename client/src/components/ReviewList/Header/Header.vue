@@ -26,38 +26,7 @@
       },
     },
 
-    computed: {
-      searchTitle() {
-        if (this.downloading) {
-          return 'Downloading...';
-        } else {
-          return 'Search or insert ID';
-        }
-      },
-    },
-
     methods: {
-      refresh() {
-        this.$emit('refresh-list');
-      },
-
-      clearAll() {
-        this.repository.clearProductList().then(() => {
-          this.$emit('refresh-list');
-        })
-      },
-
-      createNew() {
-        const toSearch = this.search;
-        this.downloading = true;
-        this.search = '';
-        this.$emit('update-search', this.search);
-        this.repository.getNewProduct(toSearch).then(() => {
-          this.$emit('refresh-list');
-          this.downloading = false;
-        })
-      },
-
       formChanged() {
         this.$emit('update-search', this.search);
       },
@@ -79,23 +48,12 @@
 
 <template>
   <div class="header">
-    <h3 class="header__title">Products ({{ this.itemsCount }})</h3>
-
-    <!-- <VTooltip style="margin-right: 5px;">
-      <HeaderButton
-        img="../src/assets/images/compass_item.png"
-        @click="refresh"
-      />
-
-      <template #popper>
-        <p class="tooltip__text">Refresh</p>
-      </template>
-    </VTooltip> -->
+    <h3 class="header__title">Reviews ({{ this.itemsCount }})</h3>
 
     <div class="search">
       <Icon size="20px" img="../src/assets/images/spyglass.png"/>
       <input class="search__input" 
-        :placeholder="searchTitle" 
+        placeholder="Search" 
         v-model="search" 
         @input="formChanged" 
         @submit="createNew"
@@ -104,31 +62,14 @@
     </div>
 
     <div class="header__buttons">
-      <HeaderButton @click="createNew"
-        img="../src/assets/images/clipboard_and_quill.png"
-        label="NEW"
-        rectangular="false"
-      />
-
       <VTooltip>
         <HeaderButton
-          :img="this.sortingIcon"
+          img="../src/assets/images/bundle.png"
           @click="changeSortingMethod"
         />
 
         <template #popper>
-          <p class="tooltip__text">Sorting {{ this.sortingMethod }}</p>
-        </template>
-      </VTooltip>
-
-      <VTooltip>
-        <HeaderButton 
-          img="../src/assets/images/bucket_lava.png"
-          @click="clearAll"
-        />
-
-        <template #popper>
-          <p class="tooltip__text">Clear All</p>
+          <p class="tooltip__text">Reload</p>
         </template>
       </VTooltip>
     </div>
