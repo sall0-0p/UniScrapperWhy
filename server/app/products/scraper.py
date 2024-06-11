@@ -89,12 +89,16 @@ def getReviews(productId, update):
                 "tags": extract(page_dom, ".product-top__product-info__tags"),
                 "reviewCount": processed_opinions,
                 "price": extract(page_dom, ".product-offer-summary__price-box > .price-format > .price > .value"),
-                # 'icon': '../src/assets/images/brass_hand.png',
                 "icon": "https:" + extract(page_dom, ".js_gallery-media", "src"),
                 "rating": analytics_result[3],
+                "prosCount": analytics_result[1].item(),
+                "consCount": analytics_result[2].item(),
             },
             "content": product,
         }
+
+        print(analytics_result[1], type(analytics_result[1]))
+        print(analytics_result[2], type(analytics_result[2]))
 
         json_file = open(pathToJson, 'w')
         json.dump(data, json_file, indent=4, ensure_ascii=False)

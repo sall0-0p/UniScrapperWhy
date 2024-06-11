@@ -1,0 +1,532 @@
+{
+    "meta": {
+        "productName": "Tp Link Tapo C500",
+        "productId": "147752741",
+        "tags": "",
+        "reviewCount": 34,
+        "price": "179",
+        "icon": "https://image.ceneostatic.pl/data/products/147752741/f-tp-link-tapo-c500.jpg",
+        "rating": 0.9294117647058823
+    },
+    "content": [
+        {
+            "opinionId": "18174942",
+            "author": "kornel3305",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "świetna kamera, dobry obraz i zasięg wifi, umożliwia śledzenie poruszających się obiektów. Intuicyjna aplikacja, działa w chmurze więc podgląd z każdego miejsca. Ładnie się prezentuje i jest wodoodporna. Polecam",
+            "pros": null,
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 0,
+            "publishDate": "2023-12-05 17:44:50",
+            "purchaseDate": "2023-11-14 21:05:19"
+        },
+        {
+            "opinionId": "17961106",
+            "author": "q...k",
+            "recommendation": true,
+            "score": 0.8,
+            "content": "Ok jak na tą cenę ale trochę jeszcze kuleje oprogramowania brakuje kilku opcji. Obrazu żyleta bym nie nazwał ale to w końcu tylko fullhd.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-03 08:21:24",
+            "purchaseDate": "2023-09-21 13:27:31"
+        },
+        {
+            "opinionId": "18177130",
+            "author": "x...1",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Kamerka super, wifi dobry zasięg. Obraz jak w dzień tak i w nocy dobry. Kamerka podąża za poruszającym się obiektem.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 0,
+            "publishDate": "2023-12-06 09:05:12",
+            "purchaseDate": "2023-12-02 10:19:38"
+        },
+        {
+            "opinionId": "17822376",
+            "author": "s...y",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobra jakość w stosunku do ceny, eksploatuję już jeden egzemplarz tej kamery i jestem zadowolony.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 0,
+            "publishDate": "2023-08-21 14:06:12",
+            "purchaseDate": "2023-08-19 14:30:33"
+        },
+        {
+            "opinionId": "18072752",
+            "author": "S...i",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Po kilku dniach użytkowania kamera pracuje bezproblemowo i spełnia moje oczekiwania.",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-11-07 08:30:54",
+            "purchaseDate": "2023-10-26 11:05:25"
+        },
+        {
+            "opinionId": "17589778",
+            "author": "s...y",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Jak zamontuję to dam znać,  opierałem się na opinii brata kamera godna polecenia",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 1,
+            "publishDate": "2023-06-07 15:23:11",
+            "purchaseDate": "2023-06-06 13:30:36"
+        },
+        {
+            "opinionId": "17574151",
+            "author": "m...i",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Kamerka zgodna z opisem. bardzo wyraźny obraz. Łatwość sterowania z poziomu aplikacji.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 2,
+            "publishDate": "2023-06-02 10:13:28",
+            "purchaseDate": "2023-05-25 12:35:59"
+        },
+        {
+            "opinionId": "17268896",
+            "author": "w...i",
+            "recommendation": null,
+            "score": 0.7,
+            "content": "kamera bardzo ładna. Ciekawe jak będzie się obracać w warunkach zimowych.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 1,
+            "unhelpful": 2,
+            "publishDate": "2023-03-15 08:36:48",
+            "purchaseDate": "2023-03-07 17:22:59"
+        },
+        {
+            "opinionId": "17481376",
+            "author": "g...d",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Super kamerka, obraz w dzień i w nocy rewelacja, bardzo czuła",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-05-06 20:56:01",
+            "purchaseDate": "2023-04-05 20:30:36"
+        },
+        {
+            "opinionId": "17713848",
+            "author": "radwanw",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Instalacja bez problemu, oby działała jak najlepiej",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-07-17 13:41:44",
+            "purchaseDate": "2023-07-14 17:30:34"
+        },
+        {
+            "opinionId": "18593636",
+            "author": "m...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Wszystko zgodnie z moimi oczekiwaniami. POLECAM",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-22 11:24:18",
+            "purchaseDate": "2024-04-04 11:28:37"
+        },
+        {
+            "opinionId": "18020456",
+            "author": "m...9",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "bardzo dobrze wykrywa i śledzi postać. Polecam",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-10-20 08:44:14",
+            "purchaseDate": "2023-10-19 14:00:36"
+        },
+        {
+            "opinionId": "17544048",
+            "author": "r...l",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Wykonanie super, produkt godny polecenia za tę kwotę",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-05-24 20:24:28",
+            "purchaseDate": "2023-04-23 11:19:34"
+        },
+        {
+            "opinionId": "18606471",
+            "author": "w...g",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobry sprzęt tylko instrukcja za skąpa.",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-04-26 08:05:13",
+            "purchaseDate": "2024-04-09 11:34:25"
+        },
+        {
+            "opinionId": "17659671",
+            "author": "e...7",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Bardzo dobra jakość produktu",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-06-29 11:07:09",
+            "purchaseDate": "2023-06-24 14:53:35"
+        },
+        {
+            "opinionId": "18479364",
+            "author": "j...6",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super relacja jakość/cena",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-03-11 14:58:04",
+            "purchaseDate": "2024-02-15 15:12:23"
+        },
+        {
+            "opinionId": "17508035",
+            "author": "j...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Za tą cenę działa bardzo dobrze.",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-05-15 11:04:08",
+            "purchaseDate": "2023-05-06 15:30:39"
+        },
+        {
+            "opinionId": "18313102",
+            "author": "b...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Bardzo dobry produkt.",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2024-01-17 19:46:59",
+            "purchaseDate": "2024-01-16 13:00:37"
+        },
+        {
+            "opinionId": "17476273",
+            "author": "g...z",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Szybki montaż i łatwa obsługa",
+            "pros": [
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-05-05 10:20:57",
+            "purchaseDate": "2023-05-04 07:30:50"
+        },
+        {
+            "opinionId": "17623023",
+            "author": "Użytkownik Ceneo",
+            "recommendation": false,
+            "score": 0.4,
+            "content": "Daje dwie gwiazdki tylko za wygląd, bo ciężko znaleźć zalety tej kamery. Obiektywnie pisząc, kamera ma słabą jakość obrazu, nawet włączając ją na 1080p, twarzy nie da się rozpoznać, zaraz ktoś powie żebym zmienił dostawcę internetu, no właśnie kamera potrzebuje dobrego internetu, ale jak 300 mega po wifi nie wystarcza to ja już nie wiem jaki powinien być, chyba z NASA . Funkcja śledzenia to chyba jakiś żart, chyba, że śledzi ślimaka, bo normalnie poruszającą się osobę gubi po chwili. W nocy łapie nawet ćmy, gdzie niby odróżnia osoby od innych obiektów . Wracając do internetu to potrzebuje bardzo silnego sygnału żeby jakoś pracować, więc wiąże się to z kolejnym kosztem zakupu wzmacniacza wi-fi koszt minimum 100 zł, co daje w sumie 400 zł z kamerą, za te pieniądze kupujemy lepszą kamerkę. Podsumowując, nie chcę nikogo obrażać, ale można ją kupić jako zabawkę, a nie profesjonalny sprzęt do monitorowania domu, lub innej instytucji.",
+            "pros": null,
+            "cons": [
+                "jakość obrazu"
+            ],
+            "helpful": 2,
+            "unhelpful": 0,
+            "publishDate": "2023-06-18 17:30:32",
+            "purchaseDate": null
+        },
+        {
+            "opinionId": "17806034",
+            "author": "M...1",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super kamera",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-16 09:04:59",
+            "purchaseDate": "2023-07-28 21:35:13"
+        },
+        {
+            "opinionId": "17615582",
+            "author": "s...y",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Sprawdzone , polecsm",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-06-15 14:57:30",
+            "purchaseDate": "2023-06-14 12:30:38"
+        },
+        {
+            "opinionId": "17772907",
+            "author": "p...s",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "B.dobry",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-04 09:27:25",
+            "purchaseDate": "2023-07-20 15:00:40"
+        },
+        {
+            "opinionId": "17212573",
+            "author": "d...1",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "godna polecenia",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-03-02 08:18:48",
+            "purchaseDate": "2023-02-17 09:41:50"
+        },
+        {
+            "opinionId": "17773132",
+            "author": "m...k",
+            "recommendation": true,
+            "score": 0.9,
+            "content": "Ok",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-04 09:51:16",
+            "purchaseDate": "2023-07-28 23:30:28"
+        },
+        {
+            "opinionId": "17805912",
+            "author": "m...1",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-16 08:55:10",
+            "purchaseDate": "2023-07-29 15:10:35"
+        },
+        {
+            "opinionId": "17777051",
+            "author": "w...l",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-08-06 14:52:26",
+            "purchaseDate": "2023-07-28 14:32:34"
+        },
+        {
+            "opinionId": "17550016",
+            "author": "a...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Ok",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-05-26 00:18:19",
+            "purchaseDate": "2023-05-10 13:00:40"
+        },
+        {
+            "opinionId": "17523164",
+            "author": "m...k",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "ok",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-05-18 20:33:55",
+            "purchaseDate": "2023-05-16 15:42:31"
+        },
+        {
+            "opinionId": "17487004",
+            "author": "k...a",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "ok",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-05-09 09:37:19",
+            "purchaseDate": "2023-04-26 08:55:18"
+        },
+        {
+            "opinionId": "17281947",
+            "author": "d...0",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Ok",
+            "pros": [
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-03-17 10:57:58",
+            "purchaseDate": "2023-03-14 22:35:59"
+        },
+        {
+            "opinionId": "17291272",
+            "author": "j...n",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Super",
+            "pros": null,
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 1,
+            "publishDate": "2023-03-20 12:08:11",
+            "purchaseDate": "2023-03-13 12:51:15"
+        },
+        {
+            "opinionId": "17154912",
+            "author": "agnes5599",
+            "recommendation": true,
+            "score": 1.0,
+            "content": "Dobre wykonanie",
+            "pros": [
+                "jakość obrazu",
+                "jakość wykonania",
+                "wygląd"
+            ],
+            "cons": null,
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-02-16 19:08:56",
+            "purchaseDate": null
+        },
+        {
+            "opinionId": "17616893",
+            "author": "Użytkownik Ceneo",
+            "recommendation": false,
+            "score": 0.2,
+            "content": "Dzień dobry, wszedłem w posiadanie wymienionej kamer. Niestety stanowczo odradzam. \n\nKamera bardzo słabo radzi sobie z połączeniem z routerem i bez znaczenia jakim bo z ciekawości sprawdziłem. \nUstawienie pozycji jest klarowane, czyli żeby ustawić to trzeba chwilę poświęcić. Osobiście jestem przyzwyczajony do Overmax gdzie płynność jest w porównaniu do tej wyśmienita. \n\nJak dla mnie kamera jest niesamowicie oporna. Gdyby nie to, że wydałem na nią 250 zł a na Overmax 110 zł to nie pisałbym opinie bo nie gryzło by mnie to, a w takiej sytuacji jestem niesamowicie zawiedziony poniesionym kosztem do jakości zakupionego towaru. \n\nStanowczo odradzam rodzinę TP Link - biorą pieniążki za logo, a nie jakość.",
+            "pros": [
+                "jakość wykonania"
+            ],
+            "cons": [
+                "jakość obrazu",
+                "wygląd"
+            ],
+            "helpful": 0,
+            "unhelpful": 0,
+            "publishDate": "2023-06-15 21:59:01",
+            "purchaseDate": null
+        }
+    ]
+}

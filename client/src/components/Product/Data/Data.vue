@@ -1,5 +1,10 @@
 <script>
+  import Icon from '../Icon/Icon.vue';
+
   export default {
+    components: {
+      Icon,
+    },
     props: {
       item: {
         type: Object,
@@ -20,6 +25,18 @@
         <a :href="`https://ceneo.pl/${item.meta?.productId}`">
           {{ this.item?.meta?.price + 'zl'}}
         </a>
+      </div>
+      <div class="tag">
+        <a :href="`https://ceneo.pl/${item.meta?.productId}`">
+          {{ this.item?.meta?.prosCount }}
+        </a>
+        <Icon size="20px" img="../src/assets/images/dye_powder_lime.png" style="margin-left: 8px;"/>
+      </div>
+      <div class="tag">
+        <a :href="`https://ceneo.pl/${item.meta?.productId}`">
+          {{ this.item?.meta?.consCount }}
+        </a>
+        <Icon size="20px" img="../src/assets/images/dye_powder_red.png" style="margin-left: 8px;"/>
       </div>
       <!-- <div class="tag">
         {{ this.item?.meta?.productId }}
@@ -92,5 +109,6 @@
     font-family: var(--main-font);
     font-size: 20px;
     width: fit-content;
+    display: flex;
   }
 </style>
