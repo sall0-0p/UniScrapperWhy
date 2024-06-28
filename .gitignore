@@ -1,6 +1,7 @@
-venv/
+server/venv/
+server/app/data/
+client/node_modules
 .vscode/
-opinions/
 
 # Logs
 logs
