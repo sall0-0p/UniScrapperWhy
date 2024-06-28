@@ -1,4 +1,5 @@
 <script>
+  import { VTooltip } from 'floating-vue';
   import Icon from '../Icon/Icon.vue';
 
   export default {
@@ -17,30 +18,25 @@
 <template>
   <div class="wrapper">
     <div>
-      <h2 class="product__title">{{ item.meta?.productName || "Loading..." }}</h2>
+      <a :href="`https://ceneo.pl/${item.meta?.productId}`">
+        <h2 class="product__title">{{ item.meta?.productName || "Loading..." }}</h2>
+      </a>
       <h1 class="product__tags">{{ item.meta?.tags }}</h1>
     </div>
     <div class="wrapper">
       <div class="tag">
-        <a :href="`https://ceneo.pl/${item.meta?.productId}`">
           {{ this.item?.meta?.price + 'zl'}}
-        </a>
       </div>
+      
       <div class="tag">
-        <a :href="`https://ceneo.pl/${item.meta?.productId}`">
-          {{ this.item?.meta?.prosCount }}
-        </a>
+        {{ this.item?.meta?.prosCount }}
         <Icon size="20px" img="../src/assets/images/dye_powder_lime.png" style="margin-left: 8px;"/>
       </div>
+
       <div class="tag">
-        <a :href="`https://ceneo.pl/${item.meta?.productId}`">
-          {{ this.item?.meta?.consCount }}
-        </a>
+        {{ this.item?.meta?.consCount }}
         <Icon size="20px" img="../src/assets/images/dye_powder_red.png" style="margin-left: 8px;"/>
       </div>
-      <!-- <div class="tag">
-        {{ this.item?.meta?.productId }}
-      </div> -->
     </div>
   </div>
 </template>

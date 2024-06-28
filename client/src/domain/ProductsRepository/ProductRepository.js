@@ -28,4 +28,21 @@ export default class ProductRepository extends BaseRepository {
   clearProductList() {
     return fetch(`${this.baseUrl}/products`, { method: 'delete' });
   };
+
+  async downloadProduct(productId, type) {
+    const response = await fetch(`${this.baseUrl}/download/${productId}/${type}`)
+
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', `${productId}.${type.toLowerCase()}`); // Update this with the actual file name
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  };
 };

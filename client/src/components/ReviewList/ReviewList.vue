@@ -1,6 +1,7 @@
 <script>
   import BlockHeader from './Header/Header.vue'
   import List from './List/List.vue'
+  import ProductRepository from '@/domain/ProductsRepository';
 
   export default {
     components: {
@@ -57,6 +58,7 @@
       @update-search="updateSearch"
       @change-sorting="changeSorting"
       :itemsCount="reviews.length"
+      :itemId="item.meta?.productId"
     />
     <List 
       @refresh-list="arrangeItems"

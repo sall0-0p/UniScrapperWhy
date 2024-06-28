@@ -1,8 +1,10 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_restful import reqparse, abort, Api, Resource
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from products import scraper
 from pathlib import Path
+import pandas as pd
+import dicttoxml
 import json
 
 app = Flask(__name__)
@@ -29,7 +31,7 @@ class ProductList(Resource):
             result = {}
 
         for item in items:
-            with open(item, 'r') as json_file:
+            with open(item, 'r', encoding="utf8") as json_file:
                 data = json.load(json_file)
                 if args['only_meta']:
                     result.append(data['meta'])
@@ -51,7 +53,7 @@ class ListMeta(Resource):
         result = []
 
         for item in items:
-            with open(item, 'r') as json_file:
+            with open(item, 'r', encoding="utf8") as json_file:
                 data = json.load(json_file)
                 result.append(data['meta'])
 
@@ -78,9 +80,38 @@ class Product(Resource):
         else:
             abort(404, 'File does not exist!')
         return 204
+    
+class DownloadFile(Resource):
+    def get(self, productId, format_type):
+        print(f"Download for {productId} with type {format_type}")
+        file_path = data_folder / f'{productId}.json'
+
+        with open(file_path) as file:
+            data = json.load(file)
+            content = data['content']
+
+        if content:
+            if format_type == 'CSV':
+                df = pd.json_normalize(content)
+                response_data = df.to_csv(index=False)
+                response = app.response_class(response=response_data, mimetype='text/csv')
+                response.headers.set('Content-Disposition', 'attachment', filename='file.csv')
+            elif format_type == 'XML':
+                response_data = dicttoxml.dicttoxml(content)
+                response = app.response_class(response=response_data, mimetype='application/xml')
+                response.headers.set('Content-Disposition', 'attachment', filename='file.xml')
+            else:
+                response = jsonify(content)
+                response.headers.set('Content-Disposition', 'attachment', filename='file.json')
+
+            return response
+        else:
+            abort(404, 'File does not exist!')
+        
 
 api.add_resource(ProductList, '/products')
 api.add_resource(ListMeta, '/product-meta')
 api.add_resource(Product, '/product/<productId>')
+api.add_resource(DownloadFile, '/download/<productId>/<format_type>')
 
 app.run(port=5000)

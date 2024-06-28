@@ -24,6 +24,10 @@
         type: Number,
         default: 0,
       },
+      itemId: {
+        type: String,
+        default: '',
+      }
     },
 
     methods: {
@@ -31,16 +35,13 @@
         this.$emit('update-search', this.search);
       },
 
-      changeSortingMethod() {
-        if (this.sortingMethod === "By Alphabet") {
-          this.sortingIcon = "../src/assets/images/filter.png";
-          this.sortingMethod = "By Review Count";
-          this.$emit("change-sorting", "By Review Count")
-        } else {
-          this.sortingIcon = "../src/assets/images/attribute_filter.png";
-          this.sortingMethod = "By Alphabet";
-          this.$emit("change-sorting", "By Alphabet");
-        }
+      reload() {
+        this.$emit('update-search', this.search);
+      },
+
+      async download(itemId, type) {
+        console.log(itemId, type)
+        this.repository.downloadProduct(itemId, type)
       },
     },
   }
@@ -50,22 +51,43 @@
   <div class="header">
     <h3 class="header__title">Reviews ({{ this.itemsCount }})</h3>
 
-    <div class="search">
-      <Icon size="20px" img="../src/assets/images/spyglass.png"/>
-      <input class="search__input" 
-        placeholder="Search" 
-        v-model="search" 
-        @input="formChanged" 
-        @submit="createNew"
-        id="search"
-      >
-    </div>
-
     <div class="header__buttons">
       <VTooltip>
         <HeaderButton
+          label="JSON"
+          @click="download(this.itemId, 'JSON')"
+        />
+
+        <template #popper>
+          <p class="tooltip__text">Download JSON</p>
+        </template>
+      </VTooltip>
+      <VTooltip>
+        <HeaderButton
+          label="XML"
+          @click="download(this.itemId, 'XML')"
+        />
+
+        <template #popper>
+          <p class="tooltip__text">Download XML</p>
+        </template>
+      </VTooltip>
+      <VTooltip>
+        <HeaderButton
+          label="CSV"
+          @click="download(this.itemId, 'CSV')"
+        />
+
+        <template #popper>
+          <p class="tooltip__text">Download CSV</p>
+        </template>
+      </VTooltip>
+
+      
+      <VTooltip>
+        <HeaderButton
           img="../src/assets/images/bundle.png"
-          @click="changeSortingMethod"
+          @click="reload"
         />
 
         <template #popper>

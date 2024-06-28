@@ -47,7 +47,7 @@
     :class="{ 'button__gap': hasGap, 'button__rectangular': (rectangular === 'true') }"
     :style="'height: ' + size"
   >
-    <Icon :img="img" :size="icon_size"/>
+    <Icon :img="img" :size="icon_size" v-if="img != ''"/>
     <p class="button__label">{{ label }}</p>
   </div>
 </template>

@@ -77,12 +77,25 @@
       <div class="reviews__column">
         <Review 
           :item="review.pros"
+          prefix="+"
         ></Review>
       </div>
       <div class="reviews__column">
         <Review 
           :item="review.cons"
+          prefix="-"
         ></Review>
+      </div>
+    </div>
+
+    <div class="tags__container">
+      <div class="tag">
+        {{ this.review.helpful }}
+        <Icon size="20px" img="../src/assets/images/dye_powder_lime.png" style="margin-left: 8px;"/>
+      </div>
+      <div class="tag">
+        {{ this.review.unhelpful }}
+        <Icon size="20px" img="../src/assets/images/dye_powder_red.png" style="margin-left: 8px;"/>
       </div>
     </div>
   </div>
@@ -209,5 +222,28 @@
       width: 40%;
     }
   }
+
+  .tag {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--secondary-light);
+    color: var(--primary-text);
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 400;
+
+    font-family: var(--main-font);
+    font-size: 20px;
+    width: fit-content;
+    display: flex;
+  }
+
+  .tags__container {
+    width: 100%;
+    justify-content: right;
+    display: flex;
+  }
+
 
 </style>

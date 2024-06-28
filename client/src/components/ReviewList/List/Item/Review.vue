@@ -4,7 +4,11 @@
             item: {
                 type: Array,
                 default: [],
-            }
+            },
+            prefix: {
+                type: String,
+                default: '-',
+            },
         },
 
         computed: {
@@ -13,7 +17,7 @@
 
                 if (this.item) {
                     this.item.forEach((value) => {
-                    result += `\n - ${value}`
+                    result += `\n ${this.prefix} ${value}`
                     })
                 }   
                 
@@ -41,4 +45,5 @@
         font-weight: 200;
         white-space: pre;
     }
+    
 </style>

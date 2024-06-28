@@ -76,7 +76,7 @@ def getReviews(productId, update):
     pathToJson = path.parent.parent / 'data' / f'{productId}.json'
 
     if pathToJson.exists() and not update:
-        with open(pathToJson, 'r') as json_file:
+        with open(pathToJson, 'r', encoding="utf8") as json_file:
             return json_file.read()
     else:
         product, processed_opinions, page_dom = loadReviews(productId)
@@ -100,7 +100,7 @@ def getReviews(productId, update):
         print(analytics_result[1], type(analytics_result[1]))
         print(analytics_result[2], type(analytics_result[2]))
 
-        json_file = open(pathToJson, 'w')
+        json_file = open(pathToJson, 'w', encoding="utf8")
         json.dump(data, json_file, indent=4, ensure_ascii=False)
         json_file.close()
         

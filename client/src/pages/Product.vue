@@ -32,7 +32,6 @@
 
     mounted()  {
       this.fetchAll()
-      
     },
   }
   
