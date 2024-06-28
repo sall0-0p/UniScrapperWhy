@@ -94,6 +94,21 @@
           <p class="tooltip__text">Reload</p>
         </template>
       </VTooltip>
+
+      <VTooltip>
+        <routerLink
+          :to="{
+            name: 'charts',
+          }"
+        >
+          <HeaderButton 
+            label="📊"
+          />
+        </RouterLink>
+        <template #popper>
+          <p class="tooltip__text">Open Charts (WIP)</p>
+        </template>
+      </VTooltip>
     </div>
   </div>
 </template>

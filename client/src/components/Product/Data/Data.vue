@@ -37,6 +37,7 @@
         {{ this.item?.meta?.consCount }}
         <Icon size="20px" img="../src/assets/images/dye_powder_red.png" style="margin-left: 8px;"/>
       </div>
+      
     </div>
   </div>
 </template>
